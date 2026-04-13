@@ -1,0 +1,6 @@
+project_id   = "platform-file-service"
+region       = "us-central1"
+service_name = "platform-file-service-staging"
+bucket_name  = "platform-file-service-staging-uploads"
+image        = "us-central1-docker.pkg.dev/platform-file-service/cloud-run-source-deploy/platform-file-service:latest"
+environment  = "staging"
